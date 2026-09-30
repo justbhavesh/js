@@ -29,9 +29,37 @@ let myObj = {
     age:21,
 }
 
-const myFunction = function(){
-    console.log("Hello World");
+// const myFunction = function(){
+//     console.log("Hello World");
+// }
+
+
+// console.log(typeof bigNumber)
+// consolelog(typeof scoreValue )
+
+
+
+
+//+++++++++++++++++++++++++++++++
+
+// Stack(primitive), Heap(Non-primitive)
+
+let myYoutubename = "hiteshchoudhrydotcom"
+
+let anothername = myYoutubename
+anothername = "chaiaurcode"
+
+console.log(anothername);
+console.log(myYoutubename);
+
+let user = {
+    email: "user@google.com",
+    upi: "user@ybl"
 }
 
-console.log(typeof bigNumber)
-consolelog(typeof scoreValue )
+let userTwo = userOne
+
+userTwo.email = "hitesh@google.com"
+
+console.log(userOne.email);
+console.log(userTwo.email);
